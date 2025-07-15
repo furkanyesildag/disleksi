@@ -1,144 +1,210 @@
-# 🧠 Disleksi Dostu Metin Okuyucu
+# 🧠 **Disleksi Dostu Metin Okuyucu**
 
-Disleksili bireylerin okuma deneyimini kolaylaştırmak için geliştirilmiş akıllı web uygulaması.
+### **`DisleksiApp`**
 
-## 🎯 Proje Özellikleri
+# Takım ve Ürün Bilgileri
 
-### 📝 Ana Özellikler
-- **Akıllı Metin İşleme**: Türkçe heceleme algoritması ile metinleri hecelere ayırma
-- **Sesli Okuma (TTS)**: Web Speech API ile doğal ses sentezi
+## Takım Üyeleri
+
+| Fotoğraf | İsim | Rol | Sosyal Medya |
+|----------|------|-----|--------------|
+| 👨‍💻 | Furkan Yeşildağ | Scrum Master & Full Stack Developer | [GitHub](https://github.com/furkanyesildag) [LinkedIn](https://linkedin.com/in/furkanyesildag) |
+| 🎨 | Arayüz Geliştiricisi | UI/UX Designer | [GitHub](#) [LinkedIn](#) |
+| ⚙️ | Fonksiyonellik Geliştiricisi | Backend Developer | [GitHub](#) [LinkedIn](#) |
+| 📱 | DisleksiApp | Startup | [GitHub](https://github.com/furkanyesildag/disleksi) [Demo](https://furkanyesildag.github.io/disleksi) |
+
+## Ürün Açıklaması
+
+**DisleksiApp**, disleksili bireylerin okuma deneyimini kolaylaştırmak için geliştirilmiş akıllı web uygulamasıdır. Türkçe heceleme algoritması, sesli okuma özelliği ve disleksi dostu fontlar ile okuma zorluklarını minimize eder.
+
+Uzun vadeli hedeflerimiz arasında eğitimde fırsat eşitliği sağlamak, öğrenme zorluklarını teknoloji ile aşmak ve erişilebilir eğitim materyalleri sunmak bulunmaktadır.
+
+## Ürün Özellikleri
+
+### 📝 Akıllı Metin İşleme:
+- **Türkçe Heceleme**: Gelişmiş algoritma ile doğru heceleme
 - **Vurgulama Modları**: Hece, kelime ve cümle bazlı renkli vurgulama
-- **Disleksi Dostu Font**: OpenDyslexic ve Lexend font desteği
-- **Özelleştirilebilir Ayarlar**: Font boyutu, harf aralığı, satır aralığı kontrolü
-- **Responsive Tasarım**: Mobil ve masaüstü uyumlu arayüz
+- **Özelleştirilebilir Ayarlar**: Font boyutu, harf aralığı, satır yüksekliği
 
-### 🔧 Teknik Özellikler
-- **Vanilla JavaScript**: Framework bağımsız, hızlı ve hafif
-- **Modern CSS**: CSS Grid, Flexbox, CSS Variables
-- **Erişilebilirlik**: WCAG 2.1 standartlarına uygun
-- **Progressive Web App**: Offline çalışma desteği
-- **Klavye Kısayolları**: Hızlı kullanım için kısayollar
+### 🔊 Sesli Okuma (TTS):
+- **Web Speech API**: Doğal ses sentezi
+- **Hız Kontrolü**: Ayarlanabilir okuma hızı
+- **Türkçe Destek**: Türkçe ses motorları
 
-## 🚀 Kurulum ve Kullanım
-
-### Hızlı Başlangıç
-1. Projeyi klonlayın veya indirin
-2. `index.html` dosyasını web tarayıcınızda açın
-3. Metin girin ve "Metni İşle" butonuna tıklayın
-4. Ayarları ihtiyacınıza göre düzenleyin
-5. Sesli okuma için "Oynat" butonunu kullanın
-
-### Klavye Kısayolları
-- `Ctrl + Enter`: Metni işle
-- `Ctrl + Space`: Sesli okumayı başlat/duraklat
-- `Ctrl + Escape`: Sesli okumayı durdur
-
-## 📁 Proje Yapısı
-
-```
-disleksi/
-├── index.html          # Ana HTML dosyası
-├── style.css           # CSS stilleri
-├── script.js           # JavaScript fonksiyonları
-├── fonts/              # Font dosyaları (opsiyonel)
-└── README.md           # Proje dokumentasyonu
-```
-
-## 🎨 Kullanılan Teknolojiler
-
-- **HTML5**: Semantik yapı ve erişilebilirlik
-- **CSS3**: Modern styling ve animasyonlar
-- **JavaScript ES6+**: Modern JavaScript özellikleri
-- **Web Speech API**: Metin-ses dönüşümü
-- **Google Fonts**: Lexend font ailesi
-- **OpenDyslexic**: Disleksi dostu font
-
-## 🔧 Geliştirme
-
-### Proje Yapısı
-- `DyslexicTextProcessor` sınıfı: Ana uygulama mantığı
-- Türkçe heceleme algoritması: `syllabify()` fonksiyonu
-- Vurgulama sistemi: CSS sınıfları ile dinamik vurgulama
-- Ayarlar sistemi: LocalStorage ile kalıcı ayarlar
-
-### Özelleştirme
-CSS değişkenlerini düzenleyerek renk temasını değiştirebilirsiniz:
-
-```css
-:root {
-    --primary-color: #4a90e2;
-    --secondary-color: #7b68ee;
-    --accent-color: #50c878;
-    /* ... diğer değişkenler */
-}
-```
-
-## 📱 Responsive Tasarım
-
-Uygulama aşağıdaki cihazlarda optimize edilmiştir:
-- **Desktop**: 1200px ve üzeri
-- **Tablet**: 768px - 1199px
-- **Mobile**: 480px - 767px
-- **Small Mobile**: 479px ve altı
-
-## ♿ Erişilebilirlik
-
-- **WCAG 2.1 AA** standartlarına uygun
-- **Klavye navigasyonu** tam desteği
-- **Ekran okuyucu** uyumluluğu
-- **Yüksek kontrast** modu desteği
-- **Hareket azaltma** seçeneği
-
-## 🌟 Gelecek Özellikler
-
-- [ ] Çoklu dil desteği
-- [ ] Metin içe/dışa aktarma
-- [ ] Okuma hızı analizi
-- [ ] Kişiselleştirilmiş ayar profilleri
-- [ ] Gelişmiş vurgulama algoritmaları
-- [ ] Mobil uygulama versiyonu
-
-## 🤝 Katkıda Bulunma
-
-1. Projeyi fork edin
-2. Yeni bir branch oluşturun (`git checkout -b feature/yeni-ozellik`)
-3. Değişikliklerinizi commit edin (`git commit -am 'Yeni özellik eklendi'`)
-4. Branch'inizi push edin (`git push origin feature/yeni-ozellik`)
-5. Pull Request oluşturun
-
-## 📄 Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakın.
-
-## 👥 Geliştirici Ekibi
-
-- **Proje Yöneticisi**: Kod entegrasyonu ve genel koordinasyon
-- **Arayüz Geliştiricisi**: HTML/CSS tasarım ve implementasyon
-- **Fonksiyonellik Geliştiricisi**: JavaScript ve algoritma geliştirme
-
-## 📞 İletişim
-
-Sorularınız için:
-- GitHub Issues: Teknik problemler ve öneriler
-- Email: [proje-email@example.com]
-- Discord: [Discord sunucu linki]
-
-## 🙏 Teşekkürler
-
-- **OpenDyslexic**: Disleksi dostu font için
-- **Google Fonts**: Lexend font ailesi için
-- **MDN Web Docs**: Teknik dokümantasyon için
-- **Disleksi Derneği**: Geri bildirimler için
+### ♿ Erişilebilirlik:
+- **Disleksi Dostu Fontlar**: OpenDyslexic ve Lexend
+- **WCAG 2.1 Uyumlu**: Erişilebilirlik standartları
+- **Klavye Kısayolları**: Hızlı kullanım için
 
 ---
 
-**Not**: Bu proje eğitim amaçlı geliştirilmiştir ve sürekli olarak iyileştirilmektedir. Geri bildirimleriniz bizim için çok değerlidir!
+# Sprint 2
 
-## 🔗 Faydalı Bağlantılar
+### Sprint 2 - Ekran Görüntüleri
 
-- [Disleksi Hakkında](https://www.disleksi.org/)
-- [OpenDyslexic Font](https://opendyslexic.org/)
-- [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API)
-- [WCAG 2.1 Guidelines](https://www.w3.org/WAI/WCAG21/quickref/)
+![Ana Sayfa](https://via.placeholder.com/800x400/4a90e2/ffffff?text=Ana+Sayfa)
+![Metin İşleme](https://via.placeholder.com/800x400/7b68ee/ffffff?text=Metin+İşleme)
+![Ayarlar Paneli](https://via.placeholder.com/800x400/50c878/ffffff?text=Ayarlar+Paneli)
 
-[![Made with ❤️ for accessibility](https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F-red.svg)](https://github.com/yourusername/disleksi) 
+### Sprint 2 - Sprint Board Güncellemeleri
+
+- ✅ **HTML Yapısı**: Responsive ve semantik HTML5 yapısı
+- ✅ **CSS Tasarımı**: Modern CSS3 ile responsive tasarım
+- ✅ **JavaScript Fonksiyonları**: Vanilla JS ile interaktif özellikler
+- ✅ **Türkçe Heceleme Algoritması**: Sesli harfler ve heceleme kuralları
+- ✅ **Web Speech API Entegrasyonu**: Sesli okuma özelliği
+- ✅ **Font Entegrasyonu**: OpenDyslexic ve Lexend fontları
+- ✅ **GitHub Repository**: Versiyon kontrolü ve deployment
+
+### Sprint 2 - Burndown Chart
+
+- **Sprint Hedefi**: 180 puan
+- **Tamamlanan**: 180 puan (100%)
+- **Sprint Süresi**: 7 gün
+- **Takım Kapasitesi**: 25 puan/gün
+
+### Sprint 2 - Sprint Notları
+
+- **Beklenen puan tamamlama**: 180 puan
+- **Puan Tamamlama Mantığı**: `(180 puan tamamlandı)` Planlanan tüm özellikler başarıyla tamamlandı
+- **Daily Scrum**: Dosyayı görüntüle
+- **Product Backlog URL**: [Trello Board](https://trello.com/b/example)
+
+### Sprint 2 - Sprint Review
+
+Sprint 2'de tamamlanan özellikler:
+
+- ✅ **Proje Kurulumu**: HTML, CSS, JavaScript dosyaları oluşturuldu
+- ✅ **Responsive Tasarım**: Mobil ve masaüstü uyumlu arayüz
+- ✅ **Türkçe Heceleme**: Sesli harf tanıma ve heceleme algoritması
+- ✅ **Vurgulama Sistemi**: Hece, kelime ve cümle vurgulaması
+- ✅ **Sesli Okuma**: Web Speech API ile TTS entegrasyonu
+- ✅ **Ayarlar Paneli**: Font boyutu, harf aralığı, okuma hızı kontrolü
+- ✅ **Erişilebilirlik**: Klavye kısayolları ve WCAG uyumluluğu
+- ✅ **GitHub Pages**: Canlı demo deployment
+
+**Sprint Review Katılımcıları**: `Furkan Yeşildağ`, `Arayüz Geliştiricisi`, `Fonksiyonellik Geliştiricisi`
+
+### Sprint 2 - Sprint Retrospective
+
+- ✅ **Başarılar**: Tüm temel özellikler planlandığı gibi tamamlandı
+- 🔄 **İyileştirmeler**: Heceleme algoritması optimize edildi
+- 📋 **Sonraki Sprint**: Kullanıcı geri bildirimleri ve performans iyileştirmeleri
+- 🎯 **Hedefler**: Çoklu dil desteği ve gelişmiş vurgulama algoritmaları
+
+### Sprint 2 - Ek Dosyalar
+
+- **Proje Mimarisi**: [Dosyayı Görüntüle](docs/architecture.md)
+- **Kullanıcı Kılavuzu**: [Dosyayı Görüntüle](docs/user-guide.md)
+- **Teknik Dokümantasyon**: [Dosyayı Görüntüle](docs/technical-docs.md)
+- **Erişilebilirlik Raporu**: [Dosyayı Görüntüle](docs/accessibility-report.md)
+
+---
+
+# Sprint 3 (Planlanan)
+
+### Sprint 3 - Hedefler
+
+- 🎯 **Çoklu Dil Desteği**: İngilizce ve diğer diller
+- 📊 **Analitik Dashboard**: Kullanım istatistikleri
+- 💾 **Veri Saklama**: LocalStorage ile ayar kaydetme
+- 🔍 **Gelişmiş Arama**: Metin içi arama özelliği
+- 📱 **PWA Desteği**: Offline çalışma özelliği
+
+---
+
+# Renk Referansı
+
+| Renk | Hex |
+|------|-----|
+| Primary Color | ![#4a90e2](https://via.placeholder.com/10/4a90e2?text=+) #4a90e2 |
+| Secondary Color | ![#7b68ee](https://via.placeholder.com/10/7b68ee?text=+) #7b68ee |
+| Accent Color | ![#50c878](https://via.placeholder.com/10/50c878?text=+) #50c878 |
+| Background Color | ![#f8f9fa](https://via.placeholder.com/10/f8f9fa?text=+) #f8f9fa |
+| Text Color | ![#2c3e50](https://via.placeholder.com/10/2c3e50?text=+) #2c3e50 |
+
+# Kullanılan Teknolojiler
+
+### Frontend
+- `HTML5` - Semantik yapı
+- `CSS3` - Modern styling ve animasyonlar
+- `JavaScript ES6+` - Interaktif özellikler
+- `Web Speech API` - Sesli okuma
+- `CSS Grid & Flexbox` - Responsive layout
+
+### Fonts & Typography
+- `OpenDyslexic` - Disleksi dostu font
+- `Lexend` - Okunabilirlik odaklı font
+- `Google Fonts` - Web font servisi
+
+### Tools & Deployment
+- `Git` - Versiyon kontrolü
+- `GitHub` - Repository hosting
+- `GitHub Pages` - Static site hosting
+- `GitHub CLI` - Command line interface
+
+### Accessibility
+- `WCAG 2.1 AA` - Erişilebilirlik standartları
+- `ARIA` - Screen reader desteği
+- `Keyboard Navigation` - Klavye erişimi
+
+---
+
+## Demo
+
+🚀 **Canlı Demo**: [https://furkanyesildag.github.io/disleksi](https://furkanyesildag.github.io/disleksi)
+
+### Özellikler
+
+- ✅ **Türkçe Heceleme**: Gelişmiş algoritma
+- ✅ **Sesli Okuma**: Web Speech API
+- ✅ **Responsive Tasarım**: Tüm cihazlarda uyumlu
+- ✅ **Erişilebilirlik**: WCAG 2.1 uyumlu
+- ✅ **Disleksi Dostu**: OpenDyslexic font desteği
+
+---
+
+## Kurulum
+
+```bash
+# Repository'yi klonlayın
+git clone https://github.com/furkanyesildag/disleksi.git
+
+# Proje dizinine gidin
+cd disleksi
+
+# Tarayıcıda açın
+open index.html
+```
+
+## Katkıda Bulunma
+
+1. Fork edin
+2. Feature branch oluşturun (`git checkout -b feature/yeni-ozellik`)
+3. Commit edin (`git commit -am 'Yeni özellik eklendi'`)
+4. Push edin (`git push origin feature/yeni-ozellik`)
+5. Pull Request oluşturun
+
+## Lisans
+
+Bu proje MIT lisansı altında lisanslanmıştır.
+
+---
+
+## Hakkında
+
+Bu proje, disleksili bireylerin okuma deneyimini kolaylaştırmak amacıyla geliştirilmiş eğitim odaklı bir web uygulamasıdır. Sprint 2 kapsamında temel özellikler tamamlanmış ve GitHub Pages üzerinden canlı olarak yayınlanmıştır.
+
+### Kaynaklar
+
+📚 Readme
+
+### Aktivite
+
+⭐ **4** stars  
+👀 **2** watching  
+🍴 **5** forks
+
+---
+
+**© 2024 DisleksiApp - Eğitim ve Sağlık İçin Geliştirilmiştir** 

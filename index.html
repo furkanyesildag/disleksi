@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disleksi Dostu Metin Okuyucu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="title">🧠 Disleksi Dostu Metin Okuyucu</h1>
+            <p class="subtitle">Okumayı kolaylaştıran akıllı metin editörü</p>
+        </header>
+
+        <main class="main-content">
+            <div class="input-section">
+                <h2>Metninizi Girin</h2>
+                <textarea 
+                    id="inputText" 
+                    placeholder="Buraya okumak istediğiniz metni yazın veya yapıştırın..."
+                    rows="8"
+                ></textarea>
+                
+                <div class="controls">
+                    <button id="processText" class="btn btn-primary">
+                        <span class="btn-icon">🎯</span>
+                        Metni İşle
+                    </button>
+                    <button id="clearText" class="btn btn-secondary">
+                        <span class="btn-icon">🗑️</span>
+                        Temizle
+                    </button>
+                </div>
+            </div>
+
+            <div class="settings-section">
+                <h2>Ayarlar</h2>
+                <div class="settings-grid">
+                    <div class="setting-item">
+                        <label for="fontSize">Font Boyutu:</label>
+                        <input type="range" id="fontSize" min="14" max="32" value="18">
+                        <span id="fontSizeValue">18px</span>
+                    </div>
+                    
+                    <div class="setting-item">
+                        <label for="letterSpacing">Harf Aralığı:</label>
+                        <input type="range" id="letterSpacing" min="0" max="5" value="1" step="0.1">
+                        <span id="letterSpacingValue">1px</span>
+                    </div>
+                    
+                    <div class="setting-item">
+                        <label for="lineHeight">Satır Aralığı:</label>
+                        <input type="range" id="lineHeight" min="1.2" max="3" value="1.8" step="0.1">
+                        <span id="lineHeightValue">1.8</span>
+                    </div>
+                    
+                    <div class="setting-item">
+                        <label for="speechRate">Okuma Hızı:</label>
+                        <input type="range" id="speechRate" min="0.5" max="2" value="1" step="0.1">
+                        <span id="speechRateValue">1x</span>
+                    </div>
+                    
+                    <div class="setting-item">
+                        <label for="highlightMode">Vurgulama Modu:</label>
+                        <select id="highlightMode">
+                            <option value="syllable">Heceler</option>
+                            <option value="word">Kelimeler</option>
+                            <option value="sentence">Cümleler</option>
+                        </select>
+                    </div>
+                    
+                    <div class="setting-item">
+                        <label for="dyslexicFont">Disleksi Fontu:</label>
+                        <input type="checkbox" id="dyslexicFont" checked>
+                    </div>
+                </div>
+            </div>
+
+            <div class="output-section">
+                <div class="output-header">
+                    <h2>İşlenmiş Metin</h2>
+                    <div class="audio-controls">
+                        <button id="playBtn" class="btn btn-audio">
+                            <span class="btn-icon">▶️</span>
+                            Oynat
+                        </button>
+                        <button id="pauseBtn" class="btn btn-audio" disabled>
+                            <span class="btn-icon">⏸️</span>
+                            Duraklat
+                        </button>
+                        <button id="stopBtn" class="btn btn-audio" disabled>
+                            <span class="btn-icon">⏹️</span>
+                            Durdur
+                        </button>
+                    </div>
+                </div>
+                
+                <div id="outputText" class="output-text">
+                    <p class="placeholder">İşlenmiş metin burada görünecek...</p>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2024 Disleksi Dostu Metin Okuyucu - Eğitim ve Sağlık İçin Geliştirilmiştir</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 

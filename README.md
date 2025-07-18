@@ -9,8 +9,8 @@
 | Fotoğraf | İsim | Rol | Sosyal Medya |
 |----------|------|-----|--------------|
 | 👨‍💻 | Furkan Yeşildağ | Scrum Master & Full Stack Developer | [GitHub](https://github.com/furkanyesildag) [LinkedIn](https://linkedin.com/in/furkanyesildag) |
-| 🎨 | Arayüz Geliştiricisi | UI/UX Designer | [GitHub](#) [LinkedIn](#) |
-| ⚙️ | Fonksiyonellik Geliştiricisi | Backend Developer | [GitHub](#) [LinkedIn](#) |
+| 🎨 | | Nazlı Dağlar | Arayüz Geliştiricisi | UI/UX Designer | [GitHub](#) [LinkedIn](#) |
+| ⚙️ | | Dilara Alpaslan | Fonksiyonellik Geliştiricisi | Backend Developer | [GitHub](#) [LinkedIn] |
 | 📱 | DisleksiApp | Startup | [GitHub](https://github.com/furkanyesildag/disleksi) [Demo](https://furkanyesildag.github.io/disleksi) |
 
 ## Ürün Açıklaması
@@ -208,3 +208,43 @@ Bu proje, disleksili bireylerin okuma deneyimini kolaylaştırmak amacıyla geli
 ---
 
 **© 2024 DisleksiApp - Eğitim ve Sağlık İçin Geliştirilmiştir** 
+
+# Daily Scrum
+
+Her gün takım olarak yapılan kısa toplantıların ekran görüntüsü:
+
+![Daily Scrum Screenshot](docs/screenshots/daily-scrum.png)
+
+> Not: Kendi Daily Scrum toplantınızın ekran görüntüsünü buraya ekleyin.
+
+---
+
+# Sprint Board
+
+Sprint sürecinde kullanılan Trello/Jira/Notion gibi araçların sprint board ekran görüntüsü:
+
+![Sprint Board Screenshot](docs/screenshots/sprint-board.png)
+
+> Not: Kendi sprint board'unuzun ekran görüntüsünü buraya ekleyin.
+
+---
+
+# Ürün Durumu
+
+Uygulamanın son haline ait ekran görüntüleri:
+
+- **Ana Sayfa:**
+  ![Ana Sayfa](https://hizliresim.com/sn58fox)
+
+- **Metin İşleme:**
+  ![Metin İşleme](https://hizliresim.com/876ld4r)
+
+> Not: Kendi ürününüzün güncel ekran görüntülerini bu alanlara ekleyin. Fotoğraf linklerini bana ilettiğinizde burayı güncelleyebilirim. 
+
+# Daily Scrum ve Sprint Board Süreci
+
+Proje ekibi olarak her gün düzenli şekilde Daily Scrum toplantılarımızı gerçekleştirdik. Toplantılara Furkan Yeşildağ (Scrum Master ve proje entegrasyon sorumlusu), Dilara Alpaslan (arayüz ve görsel tasarım), ve Nazlı Dağlar (fonksiyonellik ve test) katıldı. Her sabah kısa bir çevrim içi toplantı ile bir önceki gün yapılanlar, o gün yapılacaklar ve varsa karşılaşılan engeller paylaşıldı. Toplantıların moderasyonunu ve takibin sürekliliğini ağırlıklı olarak Furkan Yeşildağ üstlendi. 
+
+Sprint süresince iş takibi için Trello sprint board'u kullanıldı. Tüm görevler "Yapılacaklar", "Devam Edenler" ve "Tamamlananlar" olarak kategorize edildi. Görevlerin dağıtımı ve önceliklendirilmesi Furkan Yeşildağ tarafından yapıldı. Dilara Alpaslan arayüz geliştirme ve görsel iyileştirmelerden, Nazlı Dağlar ise JavaScript fonksiyonelliği ve testlerden sorumluydu. Sprint board üzerinde her üye kendi görevlerinin durumunu güncelledi ve ilerleme günlük olarak takip edildi.
+
+Bu süreç sayesinde takım içi iletişim ve iş bölümü netleşti, sprint hedeflerine zamanında ve verimli şekilde ulaşıldı. 
